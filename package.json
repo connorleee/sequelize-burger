@@ -1,0 +1,29 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Node express app with ORM and MCS structuring with template files",
+  "main": "index.js",
+  "engines": {
+    "node": "10.15.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorleee/Burger.git"
+  },
+  "author": "Connor Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connorleee/Burger/issues"
+  },
+  "homepage": "https://github.com/connorleee/Burger#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1"
+  }
+}
